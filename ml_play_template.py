@@ -66,18 +66,7 @@ while True:
             comm.send_instruction(scene_info.frame, PlatformAction.MOVE_LEFT)
             
 
-                
-        
-                
-        
-        
-        
-        
-        
-        
-        
-        
-        
+ 
         
         
         #if now_ball[0] != scene_info.ball[0]:
