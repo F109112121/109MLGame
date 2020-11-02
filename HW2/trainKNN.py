@@ -19,11 +19,11 @@ PlatformPosition=[]
 Bricks=[]
 filenamelist = []
 
-mypath = "games/arkanoid/log"
-filenames = os.listdir(mypath)
+log = 'C:\\Users\\user\\Desktop\\MLGame-beta4\\games\\arkanoid\\log'
+filenames = os.listdir(log)
 
 for filename in filenames:
-    fileroutine = mypath + '\\' + filename
+    fileroutine = log + '\\' + filename
     with open(fileroutine,"rb") as f:
         data_list = pickle.load(f)
     for i in range(0,len(data_list)):
@@ -74,7 +74,7 @@ acc=accuracy_score(yt, y_test)"""
 
 
 
-filename="Knn_example.sav"
+filename="knn_example1.sav"
 pickle.dump(neigh, open(filename, 'wb'))
 
 
