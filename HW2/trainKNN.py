@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct  1 20:48:57 2019
-@author: water
-"""
+
 
 import games.arkanoid.communication as comm
 from games.arkanoid.communication import ( \
